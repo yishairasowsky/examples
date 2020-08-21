@@ -46,7 +46,7 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: getDirectoriesWithConfig().map(copyPluginConfig)
         }),
-        new OpenFinPlugin({ manifestUrl: 'http://localhost:' + port + '/base/app.json' })
+        new OpenFinPlugin({ manifestUrl: 'http://localhost:' + port + '/current-app-seed/app.json' })
     ],
     devServer: {
         port
