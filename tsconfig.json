@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "rootDir": ".",
+        "target": "ES6",
+        "skipLibCheck": true,
+        "declaration": false,
+        "allowJs": false
+    },
+    "include": [
+        "./node_modules/hadouken-js-adapter/fin.d.ts",
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "./build-utils/*",
+        "*/bundle.js"
+    ]
+}

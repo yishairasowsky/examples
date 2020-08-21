@@ -1,0 +1,7 @@
+node_modules
+local/*
+!local/readme.md
+*/bundle.js
+*/app.json
+**/*.d.ts
+!modules.d.ts

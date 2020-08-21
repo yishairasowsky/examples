@@ -1,0 +1,31 @@
+{
+    "runtime": {
+        "arguments": "--inspect --v=1",
+        "version": "${OF_VER}"
+    },
+    "platform": {
+        "uuid": "platform_customization_base"
+    },
+    "snapshot": {
+        "windows": [
+            {
+                "layout": {
+                    "content": [
+                        {
+                            "type": "stack",
+                            "content": [
+                                {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                        "url": "${BASE_URL}/base"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
