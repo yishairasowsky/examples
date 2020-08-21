@@ -22,6 +22,4 @@ function getDirectoriesWithEntry() {
     })
 }
 
-console.log(getDirectoriesWithEntry());
-
 module.exports = { getDirectoriesWithConfig, getDirectoriesWithEntry };
