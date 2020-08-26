@@ -1,8 +1,6 @@
 const { launch } = require('hadouken-js-adapter');
 
-
 let firstLaunch = true;
-
 module.exports = class OpenFinPlugin {
     constructor({ manifestUrl }) {
         this.manifestUrl = manifestUrl;
@@ -10,6 +8,7 @@ module.exports = class OpenFinPlugin {
     apply(compiler) {
         compiler.hooks.done.tap('OpenFinPlugin', (compilation, callback) => {
             if (firstLaunch) {
+                console.log('launching app at: ' + this.manifestUrl)
                 launch({ manifestUrl: this.manifestUrl });
                 firstLaunch = false;
             }

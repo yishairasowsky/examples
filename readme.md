@@ -14,3 +14,10 @@ That said, this is not a production-ready webpack configuration.
 Currently the same config exists in `provider` and `current-app-seed`
 
 This is to determine if it is easier to have these configs live with the code or separately.
+
+## Choosing which example to launch
+
+To change the launched app from the default simply pass the directory name containing the openfin config you wish to launch to `npm start` (after the `--`). For example:
+```bash
+npm start -- base
+```
