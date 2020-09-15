@@ -6,8 +6,9 @@ const fs = require('fs')
 
 const appName = process.argv.length > 2 ? process.argv[2] : 'current-app-seed';
 
+const isEarlytutorial = appName === '00_hello_world' || appName === '01_hello_openfin'
 
-if (!fs.existsSync(path.join(__dirname, appName, 'openfin.config.json'))) {
+if (!fs.existsSync(path.join(__dirname, appName, 'openfin.config.json')) && !isEarlytutorial) {
     console.error('No config found at specified location');
     process.exit(1)
 }

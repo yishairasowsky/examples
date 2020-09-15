@@ -3,5 +3,6 @@ local/*
 !local/readme.md
 */bundle.js
 */app.json
+!01_hello_openfin/app.json
 **/*.d.ts
 !modules.d.ts

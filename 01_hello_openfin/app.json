@@ -1,0 +1,10 @@
+{
+    "startup_app": {
+        "uuid": "hello_openfin",
+        "autoShow": true,
+        "url": "http://localhost:5555/00_hello_world"
+    },
+    "runtime": {
+        "version": "stable"
+    }
+}

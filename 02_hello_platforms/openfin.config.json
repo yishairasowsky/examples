@@ -1,0 +1,30 @@
+{
+    "runtime": {
+        "version": "${OF_VER}"
+    },
+    "platform": {
+        "uuid": "hello_platforms"
+    },
+    "snapshot": {
+        "windows": [
+            {
+                "layout": {
+                    "content": [
+                        {
+                            "type": "stack",
+                            "content": [
+                                {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                        "url": "${BASE_URL}/00_hello_world"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
