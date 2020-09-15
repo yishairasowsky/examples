@@ -1,6 +1,6 @@
 import { html, render } from 'lit-html';
-import { LayoutForm } from './layout-form.js';
-import { storeTemplate } from './template-store.js';
+import { LayoutForm } from './layout-form';
+import { storeTemplate } from './template-store';
 
 class SnapshotForm extends LayoutForm {
     constructor() {

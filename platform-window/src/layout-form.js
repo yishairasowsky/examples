@@ -1,5 +1,5 @@
 import { html, render } from 'lit-html';
-import { storeTemplate } from './template-store.js';
+import { storeTemplate } from './template-store';
 
 export class LayoutForm extends HTMLElement {
     constructor() {

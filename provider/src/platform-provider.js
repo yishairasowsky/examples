@@ -1,4 +1,4 @@
-import { generateExternalWindowSnapshot, restoreExternalWindowPositionAndState } from './provider-overrides.js';
+import { generateExternalWindowSnapshot, restoreExternalWindowPositionAndState } from './provider-overrides';
 
 //We have customized out platform provider to keep track of a specific notepad window.
 //Look for the "my_platform_notes.txt" file and launch it in notepad or add another external window to this array

@@ -1,6 +1,6 @@
 import { html, render } from 'lit-html';
-import { getTemplates, getTemplateByName, onStoreUpdate } from './template-store.js';
-import { CONTAINER_ID } from './platform-window.js';
+import { getTemplates, getTemplateByName, onStoreUpdate } from './template-store';
+import { CONTAINER_ID } from './platform-window';
 
 const CHART_URL = 'https://cdn.openfin.co/embed-web/chart.html';
 const LAYOUT_STORE_KEY = 'LayoutForm';
