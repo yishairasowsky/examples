@@ -1,1 +1,1 @@
-/// <reference path="./node_modules/hadouken-js-adapter/fin.d.ts" />
+/// <reference path="./node_modules/openfin-adapter/fin.d.ts" />

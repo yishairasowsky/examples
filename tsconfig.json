@@ -4,10 +4,10 @@
         "target": "ES6",
         "skipLibCheck": true,
         "declaration": false,
-        "allowJs": true
+        "allowJs": true,
+        "moduleResolution": "node"
     },
     "include": [
-        "./node_modules/hadouken-js-adapter/fin.d.ts",
         "**/*"
     ],
     "exclude": [
