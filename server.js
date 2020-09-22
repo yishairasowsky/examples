@@ -4,7 +4,7 @@ const WebpackDevServer = require('webpack-dev-server');
 const path = require('path')
 const fs = require('fs')
 
-const appName = process.argv.length > 2 ? process.argv[2] : 'current-app-seed';
+const appName = process.argv.length > 2 ? process.argv[2] : 'base';
 
 const isEarlytutorial = appName === '00_hello_world' || appName === '01_hello_openfin'
 
