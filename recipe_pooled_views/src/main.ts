@@ -43,13 +43,7 @@ if (fin.me.isWindow) {
     });
 } else if (fin.me.isView) {
     // Code that will run ONLY in the views
-    const [r,g,b] = [
-        Math.floor(Math.random() * 256),
-        Math.floor(Math.random() * 256),
-        Math.floor(Math.random() * 256)
-    ];
-    // set the background of the view to a random color
-    document.body.style.background = "rgb(" + r + "," + g + "," + b + ")";
+
     const showDetachOnCloseSetting = (bool) => {
         const string = `Detach on close set to: <p style="color:red"><strong>${ bool }</strong></p>`;
         const div = document.getElementById('current-detach-on-close-setting');
@@ -89,6 +83,22 @@ if (fin.me.isWindow) {
     fin.me.getOptions().then(({detachOnClose}) => {
         showDetachOnCloseSetting(detachOnClose);
     });
+
+    window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+            // arbitrarily make loading take a while for example purposes
+            const [r,g,b] = [
+                Math.floor(Math.random() * 256),
+                Math.floor(Math.random() * 256),
+                Math.floor(Math.random() * 256)
+            ];
+            // set the background of the view to a random color
+            document.body.style.background = "rgb(" + r + "," + g + "," + b + ")";
+
+            document.getElementById('title').innerHTML = 'Example View';
+            
+        }, 2000)
+    })
 }
 
 // Example of function to set the `detachOnClose` option in all views in a window to true 

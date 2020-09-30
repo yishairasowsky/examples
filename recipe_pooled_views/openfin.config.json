@@ -5,7 +5,8 @@
     "platform": {
         "uuid": "pooled_views",
         "defaultWindowOptions": {
-            "url": "${BASE_URL}/recipe_pooled_views/window.html"
+            "url": "${BASE_URL}/recipe_pooled_views/window.html",
+            "showBackgroundImages": true
         },
         "maxViewPoolSize": 15
     },

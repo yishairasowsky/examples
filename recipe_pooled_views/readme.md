@@ -1,6 +1,6 @@
 # Pooled View Recipe
 
-Inn this recipe we will show how "pooled" or "detached" views work.  When a view is "pooled" or "detached" it is hidden but not attached to any layout window.  Any layout that was captured with this view inside it can recall the "pooled" view instead of creating a new one.  Please note that you can recognize this happening as a new view will have a different color background.  
+In this recipe we will show how "pooled" or "detached" views work.  When a view is "pooled" or "detached" it is hidden but not attached to any layout window.  Any layout that was captured with this view inside it can recall the "pooled" view instead of creating a new one.  Please note that you can recognize this happening as a new view will have a different color background.  We made the loading of this color take 2 seconds for example purposes so that it is easy to know when a new view is being created.
 
 ## The config
 
