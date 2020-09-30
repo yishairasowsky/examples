@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "lit-html": "^1.3.0",
-    "openfin-adapter": "^17.54.10"
+    "openfin-adapter": "^17.55.3"
   }
 }

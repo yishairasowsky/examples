@@ -8,6 +8,7 @@ In this tutorial we will enhance the 00 app without any code.
 
 
 ## The config
+
 Take a look at `openfin.config.json`
 
 You may see we no longer have a `startup_app`. We have a `platform` key instead. This tells openfin we will be running under the new "Platforms" architecture.
@@ -18,12 +19,13 @@ Within the window object of that array we have a "layout" some structure and fin
 Under that objects `component_state` we have a "url" set to our app from 00_hello_world.
 
 ## Running it
+
 Go ahead and run `npm start -- 02_hello_platforms` from the root directory.
 This will launch the configuration defined by `openfin.config.json`.
 
-You should see our app from `00` running in a tab. It's actually a different type of entity within OpenFin called a `View`. A View is a web page which can be rendered on top of other windows (Like an Iframe but better). The tab and custom window you see are actually html.
+You should see our app from `00` running in a tab. It's actually a different type of entity within OpenFin called a `View`. A View is a web page which can be rendered on top of other windows (Like an Iframe but better). The tab and custom window you see are actually html provided by OpenFin Platforms.
 
 ## Next steps
 
-In the following tutorials we will show you how you can customize the window drawn around your content..
+In the following tutorials we will show you how you can customize the window drawn around your content.
 

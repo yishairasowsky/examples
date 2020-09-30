@@ -1,0 +1,80 @@
+{
+    "runtime": {
+        "version": "stable"
+    },
+    "platform": {
+        "uuid": "pooled_views",
+        "defaultWindowOptions": {
+            "url": "${BASE_URL}/recipe_pooled_views/window.html"
+        },
+        "maxViewPoolSize": 15
+    },
+    "snapshot": {
+        "windows": [
+            {
+                "contextMenu": true,
+                "layout": {
+                    "content": [
+                      {
+                        "type": "row",
+                        "content": [
+                          {
+                            "type": "row",
+                            "content": [
+                              {
+                                "type": "column",
+                                "content": [
+                                  {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                      "detachOnClose": true,
+                                      "url": "${BASE_URL}/recipe_pooled_views/example-view.html"
+                                    }
+                                  },
+                                  {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                      "detachOnClose": true,
+                                      "url": "${BASE_URL}/recipe_pooled_views/example-view.html"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "row",
+                            "content": [
+                              {
+                                "type": "column",
+                                "content": [
+                                  {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                      "detachOnClose": true,
+                                      "url": "${BASE_URL}/recipe_pooled_views/example-view.html"
+                                    }
+                                  },
+                                  {
+                                    "type": "component",
+                                    "componentName": "view",
+                                    "componentState": {
+                                      "detachOnClose": true,
+                                      "url": "${BASE_URL}/recipe_pooled_views/example-view.html"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -18,7 +18,6 @@ const port = 5555;
 const config = require('./webpack.config')({ appName, port })
 
 
-
 const compiler = Webpack(config);
 const devServerOptions = Object.assign({}, config.devServer, {
     stats: {

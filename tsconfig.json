@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
+        "module": "esnext",
         "rootDir": ".",
-        "target": "ES6",
+        "target": "es2017",
         "skipLibCheck": true,
         "declaration": false,
         "allowJs": true,
